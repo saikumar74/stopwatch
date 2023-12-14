@@ -20,7 +20,7 @@ document.getElementById("reset-timer").addEventListener("click", () => {
 }); 
 
 function displayTimer() {
-    seconds +=10;
+    seconds +=1;
         if(seconds == 60) {
             seconds = 0;
             minutes++;
